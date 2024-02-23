@@ -1,6 +1,6 @@
-let number1 = parseFloat(prompt("Enter the first number:"));
-let number2 = parseFloat(prompt("Enter the second number:"));
-let number3 = parseFloat(prompt("Enter the third number:"));
+let number1 = parseInt(prompt("Enter the first number:"));
+let number2 = parseInt(prompt("Enter the second number:"));
+let number3 = parseInt(prompt("Enter the third number:"));
 
 if ( number1 === number2 && number2 === number3) {
     console.log("The numbers entered are equal.");
